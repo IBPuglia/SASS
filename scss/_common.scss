@@ -1,0 +1,86 @@
+
+*{
+    padding: 0;
+	margin: 0;
+}
+
+footer div{
+    margin: 15px 15px;
+}
+
+fieldset{
+    width: fit-content;
+    padding: 10px;
+}
+
+nav{
+    background-color: $navColor;
+    position: sticky;
+    top: 0;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img{
+    width: $w-100;
+}
+
+nav a{
+    display: flex;
+}
+
+nav a img{
+    padding: 15px 30px;
+    width: $w-100;
+    height: auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    align-content: space-around;
+}
+
+nav ul li{
+    align-content: space-around;
+    list-style: none;
+    align-self: center;
+    text-align: center;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: $blanco;
+    font-size: $fsize1;
+    padding: 20px;
+    background: fixed;
+    background-color: $negro;
+    border: double $navButton 4px;
+    align-self: center;
+}
+
+nav ul li a:hover{
+    color: $navButton;
+    font-weight: 600;
+}
+
+footer{
+    background-color: $navColor;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.rrss_logos{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
